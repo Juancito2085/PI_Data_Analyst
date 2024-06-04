@@ -53,9 +53,41 @@ La información que se considera importante para este proyecto es:
 Con todos estos datos se genera un archivo llamado <em>data.xlsx</em> que se encuentra en la carpeta Datasets y se utilizará para el análisis exploratorio de los datos.
 </div>
 
+## EDA
+<div align="justify">
+En el proceso de análisis exploratorio de datos se va a hacer hincapié en la imputación de datos y en los criterios tomados para realizar las mismas, además de los criterios para llevar a cabo otros análisis. Se trabajará aqui con el archivo <em>data.xlsx</em>.
+</div>
+<div align="justify">
+Lo primeros que se hace en esta etapa es convertir los valores <strong>SD</strong> a nulos para poder estudiar el dataframe de manera normalizada y poder ver la cantidad de datos faltantes en el dataset. Aclaramos que si bien muchas veces es más mejor por cuestiones costo-beneficio borrar filas con datos faltantes que llevar a cabo un análisis para lograr una buena imputación de datos, en este caso se hace énfasis en la imputación de datos para hacer uso de esta herramienta.
+</div>
+<div align="justify">
+Para la imputación de los valores faltantes en general la idea es no modificar la distribución de datos de la variable en la que hay valores nulos.
+</div>
+<div align="justify">
+En el caso que falten pocos datos y haya clases de la variable en cuestión que tengan una mayor frecuencia se le imputan los datos faltantes a esa clase, ya que esta imputación no modificará de manera significativa la ditribución de los mismos. Como por ejemplo en las variables <em>sexo</em> donde mayoritariamente son HOMBRES o en el caso de <em>víctimas</em> donde la mayoria son MOTOS.
+</div>
+<div align="justify">
+Cuando la cantidad de datos faltantes ya es importante lo que se hace es verificar si la imputación por algún valor no modifica la distribuciónde. Los metodos que se pueden ver en el notebook son imputación por la mediana, la media, la moda y mediante un muestreo por un método de la librería Pandas de Python.
+</div>
+<div align="justify">
+Una vez hecha la imputación de valores faltantes se verifica que las distribuciones no se modifican y se elige la opción más idonea.
+</div>
+<div align="justify">
+En lo que respecta a los valores atípicos en este set de datos solo se han registrado en una situación en particular pero se verá esto en los hallazgos.
+</div>
+<div align="justify">
+En el proceso de análisis, se comienza con cada variables en particular para buscar patrones y luego se continua con las ventanas de tiempo típicos como trimestre, semestre, mes y semana.
+</div>
+<div align="justify">
+También se analizan las horas en la que suceden los siniestros para ver patrones en días laborales y no laborales.
+</div>
+<div align="justify">
+Una vez completado el EDA se crea un nuevo dataset, <em>data_final.xlsx</em> para ser utilizado con Power Bi y poder hacer la presentación del análisis realizado en esta sección.
+</div>
+
 # HALLAZGOS
 
-# CONCLUSIOINES
+# CONCLUSIONES
 
 # RECOMENDACIONES
 
