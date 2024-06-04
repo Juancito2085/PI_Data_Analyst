@@ -89,10 +89,29 @@ Una vez completado el EDA se crea un nuevo dataset, <em>data_final.xlsx</em> par
 
 # POWER BI
 <div align="justify">
-Con el archivo <em>data_final</em> se crea el dashboard interactivo en Power Bi que tiene el nombre <strong>Dashboard_PI</strong> y donde se puede consultar la información mediante filtros y gráficas para su fácil visualización, además de tener KPI's en base a los datos.
+Con el archivo <em>data_final</em> se crea el dashboard interactivo en Power Bi que tiene el nombre <strong>Dashboard_PI.pbix</strong> y donde se puede consultar la información mediante filtros y gráficas para su fácil visualización, además de tener KPI's en base a los datos.
 </div>
 
 # KPI's
+<div align="justify">
+En esta sección se mostraran los KPI's que se utilizaron en este análisis, debemos recordar que la diferencia entre un KPI y una métrica es que el primero está asociado directamente a un objetivo mientras que la métrica esta asociada a un valor crudo sobre un proceso.
+</div>
+
+### KPI 1
+<div align="justify">
+<em>Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.</em>
+</div>
+<div align="justify">
+Este objetivo no se cumple, ya que el último año la cantidad de accidentes mortales de motociclistas ha aumnetado alrededor de un 35%.
+</div>
+
+### KPI 2
+<div align="justify">
+<em>Reducir en un 10% la tasa de homicidios en siniestros viales de los últimos seis meses, en CABA, en comparación con la tasa de homicidios en siniestros viales del semestre anterior.</em>
+</div>
+<div align="justify">
+Este objetivo se cumple muy holgadamente con una reducción de la tasa de homicidios en siniestrols viales en los últimos 6 meses es de 24%.
+</div>
 
 # HALLAZGOS
 <div align="justify">
@@ -177,6 +196,27 @@ Podemos observar como la mayor concentración de siniestros se dió al este de l
 </div>
 
 # CONCLUSIONES
+<div align="justify">
+Podemos concluir que las mayor cantidad de víctimas son las motos y los peatones, siendo en gran parte los acusados de estos accidentes los autos, los transportes de cargas, los transportes de pasajeros y también las motos. Esto es esperable pues las víctimas están relacionados a vehículos de menor porte en relación al acusado.
+</div>
+<div align="justify">
+Las avenidas con los tipos de calle con mayor cantidad de siniestros, esto puede deberse a la cantidad de tránsito y a la velocidad máxima de las mismas. Ya que si bien no parece una velocidad tan alta, en accidentes de vehículos de menor porte o peatones son velocidades considerables para producir lesiones fatales.
+</div>
+<div align="justify">
+La gran mayoría de víctimas son hombres, esto se puede dar a la excesiva confianza de los hombres a la hora de manejar ya que según estudios las mujeres son más precabidas.
+</div>
+<div align="justify">
+Las horas donde más accidentes se producen varían si son días laborales o fines de semana. En días laborales los accidentes generalmente son por la madrugada/mañana y por la tarde/noche, que son los horarios con mayor transito debido al movimiento ocasionado por la ida al trabajo y la vuelta a posterior sin olvidarnos de que en la mañana hay muchas actividades que involucran el desplazamiento en vehículos. En cuanto a los fines de semana la mayor cantidad de accidentes se dan por la madrugada, esto puede asociarse a que son momentos de ocio que estan asociados con el alcohol y la mala calidad de sueño.
+</div>
+<div align="justify">
+Si bien se nota una baja a lo largo de los añós en los homicidios por siniestros viales es de importante destacar que el periodo donde menos accidentes hubo fue durante la pandemia del COVID-19, que fue el primer semestre del 2020 y el segundo semestre se produce un aumento en los accidentes debido a la disminución de las restricciones a la hora de movilizarse.
+</div>
+<div align="justify">
+El area con mayor cantidad de accidentes en CABA es la parte este-sudeste, debido a que es el área con mayor tránsito. También podemos considerar que por esa zona se encunetra el puerto.
+</div>
+<div align="justify">
+Es muy importante la gran mayoria de edad de las personas se encuentran en la franja activa de la población, lo cual vincula a los siniestros con la actividad laboral y recreativa típica de está franja etaria.
+</div>
 
 # RECOMENDACIONES
 
