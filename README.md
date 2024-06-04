@@ -220,4 +220,30 @@ Es muy importante la gran mayoria de edad de las personas se encuentran en la fr
 
 # RECOMENDACIONES
 
+<div aling="justify">
+En esta sección se brindará una breve recomendación para poder gestionar recursos y a la vez se podría mitigar la cantidad de siniestros.
+</div>
+<div aling="justify">
+Sería importante implementar controles o alguna campaña para peatones y motos ya que son los más afectados por los accidentes.
+</div>
+<div aling="justify">
+Habría que implementar controles en las avenidas ya son los tipos de calles que más accidentes tienen y por lo que sería de suma importancia reducir la cantidad en este tipo de via.
+</div>
+<div aling="justify">
+Los horarios en días laborales mas caóticos son por la madrugada mañana y los fines de semana por la madrugada. Por lo que sería importante en esa franja horaria realizar alguna acción para disminuir los siniestros.
+</div>
+<div aling="justify">
+Por último y no menos importante realizar campañas de concientización y educación vial para poder prevenir de alguna manera los accidentes y poder reducir la cantidad de los mismos.
+</div>
+
 # TECNOLOGÍAS
+
+<div aling="justify">
+<ul>
+<li>Python
+<li>Pandas
+<li>Numpy
+<li>Folium
+<li>Power BI
+</ul>
+</div>
